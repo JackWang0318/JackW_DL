@@ -1,3 +1,5 @@
+# Learn DL together, at ease
+
 <!-- `````{grid} 2
 :reverse:
 
@@ -19,8 +21,6 @@ An interactive and visual Deep Learning book - with code and assignment
 
 ````
 ````` -->
-
-# Learn AI together, for free
 
 ````{grid} 1 1 2 3
 :class-container: text-center
