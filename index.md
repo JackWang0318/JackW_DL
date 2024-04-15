@@ -1,16 +1,66 @@
-# Welcome to your Jupyter Book
+<!-- `````{grid} 2
+:reverse:
 
-This is a small sample book to give you a feel for how book content is
-structured.
+```{grid-item}
+:columns: 3
+:class: sd-m-auto
 
-:::{note}
-Here is a note!
-:::
-
-And here is a code block:
+<img src="./logo.png" style="width:50%;height:50%"/>
 
 ```
-e = mc^2
+
+
+````{grid-item}
+:columns: 9
+:class: sd-fs-3
+
+An interactive and visual Deep Learning book - with code and assignment
+
+
+````
+````` -->
+
+# Learn AI together, for free
+
+````{grid} 1 1 2 3
+:class-container: text-center
+:gutter: 3
+
+```{grid-item-card}
+:link: deep-learning/nn
+:link-type: doc
+:class-header: bg-light
+
+Neural Networks 👨‍💻
+^^^
+
+TODO: Neural Networks are...
++++
+Start to read {fas}`arrow-right`
 ```
 
-Check out the content pages bundled with this sample book to see more.
+```{grid-item-card}
+:link: deep-learning/cnn/cnn
+:link-type: doc
+:class-header: bg-light
+
+CNN Basics💾
+^^^
+
+TODO: CNNs are ...
++++
+Start to read {fas}`arrow-right`
+```
+
+```{grid-item-card}
+:link: deep-learning/rnn
+:link-type: doc
+:class-header: bg-light
+
+RNN Basics 🚀
+^^^
+
+TODO: RNNs are ...
++++
+Start to read {fas}`arrow-right`
+```
