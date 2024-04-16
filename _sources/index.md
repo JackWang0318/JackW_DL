@@ -64,3 +64,42 @@ TODO: RNNs are ...
 +++
 Start to read {fas}`arrow-right`
 ```
+
+```{grid-item-card}
+:link: deep-learning/rnn
+:link-type: doc
+:class-header: bg-light
+
+xxx Basics 🚀
+^^^
+
+TODO: RNNs are ...
++++
+Start to read {fas}`arrow-right`
+```
+
+```{grid-item-card}
+:link: deep-learning/rnn
+:link-type: doc
+:class-header: bg-light
+
+xxx Basics 🚀
+^^^
+
+TODO: RNNs are ...
++++
+Start to read {fas}`arrow-right`
+```
+
+```{grid-item-card}
+:link: deep-learning/rnn
+:link-type: doc
+:class-header: bg-light
+
+xxx Basics 🚀
+^^^
+
+TODO: RNNs are ...
++++
+Start to read {fas}`arrow-right`
+```
