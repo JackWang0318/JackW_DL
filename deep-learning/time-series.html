@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>6. Time series &#8212; JackW_DL</title>
+    <title>Time series &#8212; JackW_DL</title>
   
   
   
@@ -42,7 +42,7 @@
   <script src="../_static/vendor/fontawesome/6.5.1/js/all.min.js?digest=8d27b9dea8ad943066ae"></script>
 
     <script src="../_static/documentation_options.js?v=9eb32ce0"></script>
-    <script src="../_static/doctools.js?v=888ff710"></script>
+    <script src="../_static/doctools.js?v=9a2dae69"></script>
     <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
     <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
     <script src="../_static/copybutton.js?v=f281be69"></script>
@@ -64,8 +64,8 @@
     <link rel="icon" href="../_static/fav.png"/>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="7. Autoencoder" href="autoencoder.html" />
-    <link rel="prev" title="5. Long-short term memory" href="lstm.html" />
+    <link rel="next" title="Autoencoder" href="autoencoder.html" />
+    <link rel="prev" title="Long-short term memory" href="lstm.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -174,28 +174,28 @@
     <div class="bd-toc-item navbar-nav active">
         <p aria-level="2" class="caption" role="heading"><span class="caption-text">DEEP LEARNING</span></p>
 <ul class="current nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="dl-overview.html">1. Intro to Deep Learning</a></li>
-<li class="toctree-l1"><a class="reference internal" href="nn.html">2. Neural Networks</a></li>
-<li class="toctree-l1 has-children"><a class="reference internal" href="cnn/cnn.html">3. Convolutional Neural Networks</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-1"><i class="fa-solid fa-chevron-down"></i></label><ul>
-<li class="toctree-l2"><a class="reference internal" href="cnn/cnn-vgg.html">3.9. Stylenet / Neural-Style</a></li>
-<li class="toctree-l2"><a class="reference internal" href="cnn/cnn-deepdream.html">3.10. Deepdream in TensorFlow</a></li>
+<li class="toctree-l1"><a class="reference internal" href="dl-overview.html">Intro to Deep Learning</a></li>
+<li class="toctree-l1"><a class="reference internal" href="nn.html">Neural Networks</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="cnn/cnn.html">Convolutional Neural Networks</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-1"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="cnn/cnn-vgg.html">Stylenet / Neural-Style</a></li>
+<li class="toctree-l2"><a class="reference internal" href="cnn/cnn-deepdream.html">Deepdream in TensorFlow</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="rnn.html">4. Recurrent Neural Networks</a></li>
-<li class="toctree-l1"><a class="reference internal" href="lstm.html">5. Long-short term memory</a></li>
-<li class="toctree-l1 current active"><a class="current reference internal" href="#">6. Time series</a></li>
-<li class="toctree-l1"><a class="reference internal" href="autoencoder.html">7. Autoencoder</a></li>
-<li class="toctree-l1"><a class="reference internal" href="object-detection.html">8. Object detection</a></li>
-<li class="toctree-l1"><a class="reference internal" href="image-classification.html">9. Image classification</a></li>
-<li class="toctree-l1"><a class="reference internal" href="image-segmentation.html">10. Image segmentation</a></li>
-<li class="toctree-l1 has-children"><a class="reference internal" href="nlp/nlp.html">11. Natural Language Processing</a><input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-2"><i class="fa-solid fa-chevron-down"></i></label><ul>
-<li class="toctree-l2"><a class="reference internal" href="nlp/text-preprocessing.html">11.7.1. Text Preprocessing</a></li>
-<li class="toctree-l2"><a class="reference internal" href="nlp/text-representation.html">11.7.2. Word embedding</a></li>
+<li class="toctree-l1"><a class="reference internal" href="rnn.html">Recurrent Neural Networks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="lstm.html">Long-short term memory</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Time series</a></li>
+<li class="toctree-l1"><a class="reference internal" href="autoencoder.html">Autoencoder</a></li>
+<li class="toctree-l1"><a class="reference internal" href="object-detection.html">Object detection</a></li>
+<li class="toctree-l1"><a class="reference internal" href="image-classification.html">Image classification</a></li>
+<li class="toctree-l1"><a class="reference internal" href="image-segmentation.html">Image segmentation</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="nlp/nlp.html">Natural Language Processing</a><input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-2"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="nlp/text-preprocessing.html">Text Preprocessing</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nlp/text-representation.html">Word embedding</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="gan.html">12. Generative adversarial networks</a></li>
-<li class="toctree-l1"><a class="reference internal" href="difussion-model.html">13. Diffusion Model</a></li>
-<li class="toctree-l1"><a class="reference internal" href="dqn.html">14. Deep Q-learning</a></li>
+<li class="toctree-l1"><a class="reference internal" href="gan.html">Generative adversarial networks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="difussion-model.html">Diffusion Model</a></li>
+<li class="toctree-l1"><a class="reference internal" href="dqn.html">Deep Q-learning</a></li>
 </ul>
 
     </div>
@@ -457,37 +457,37 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#overiew">6.1. Overiew</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#what-is-a-time-series">6.2. What is a Time Series?</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#linear-regression-with-time-series">6.3. Linear Regression with Time Series</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#time-step-features">6.3.1. Time-step features</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#lag-features">6.3.2. Lag features</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#overiew">Overiew</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#what-is-a-time-series">What is a Time Series?</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#linear-regression-with-time-series">Linear Regression with Time Series</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#time-step-features">Time-step features</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#lag-features">Lag features</a></li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#example-tunnel-traffic">6.4. Example - Tunnel Traffic</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#time-step-feature">6.4.1. Time-step feature</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#lag-feature">6.4.2. Lag feature</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#example-tunnel-traffic">Example - Tunnel Traffic</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#time-step-feature">Time-step feature</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#lag-feature">Lag feature</a></li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#forecasting-with-deep-learning">6.5. Forecasting With Deep Learning</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#defining-the-forecasting-task">6.5.1. Defining the Forecasting Task</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#preparing-data-for-forecasting">6.5.2. Preparing Data for Forecasting</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#multistep-forecasting-strategies">6.5.3. Multistep Forecasting Strategies</a><ul class="nav section-nav flex-column">
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#multioutput-model">6.5.3.1. Multioutput model</a></li>
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#direct-strategy">6.5.3.2. Direct strategy</a></li>
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#recursive-strategy">6.5.3.3. Recursive strategy</a></li>
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#dirrec-strategy">6.5.3.4. DirRec strategy</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#forecasting-with-deep-learning">Forecasting With Deep Learning</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#defining-the-forecasting-task">Defining the Forecasting Task</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#preparing-data-for-forecasting">Preparing Data for Forecasting</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#multistep-forecasting-strategies">Multistep Forecasting Strategies</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#multioutput-model">Multioutput model</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#direct-strategy">Direct strategy</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#recursive-strategy">Recursive strategy</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#dirrec-strategy">DirRec strategy</a></li>
 </ul>
 </li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#example-flu-trends">6.5.4. Example - Flu Trends</a><ul class="nav section-nav flex-column">
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id1">6.5.4.1. Multioutput model</a></li>
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id2">6.5.4.2. Direct strategy</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#example-flu-trends">Example - Flu Trends</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id1">Multioutput model</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id2">Direct strategy</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#your-turn">6.6. Your turn! 🚀</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#acknowledgments">6.7. Acknowledgments</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#your-turn">Your turn! 🚀</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#acknowledgments">Acknowledgments</a></li>
 </ul>
             </nav>
         </div>
@@ -523,9 +523,9 @@ WARNING: Ignoring invalid distribution -ytest (c:\users\victor\anaconda3\envs\op
 </details>
 </div>
 <section class="tex2jax_ignore mathjax_ignore" id="time-series">
-<h1><span class="section-number">6. </span>Time series<a class="headerlink" href="#time-series" title="Link to this heading">#</a></h1>
+<h1>Time series<a class="headerlink" href="#time-series" title="Link to this heading">#</a></h1>
 <section id="overiew">
-<h2><span class="section-number">6.1. </span>Overiew<a class="headerlink" href="#overiew" title="Link to this heading">#</a></h2>
+<h2>Overiew<a class="headerlink" href="#overiew" title="Link to this heading">#</a></h2>
 <p>Time series forecasting is a broad field with a long history and forcasting is perhaps the most common application in the real world. Businesses forecast product demand, governments forecast economic and population growth, meteorologists forecast the weather. The understanding of things to come is a pressing need across science, government, and industry (not to mention our personal lives!), and practitioners in these fields are increasingly applying machine learning to address this need.</p>
 <p>After finishing this course, you’ll know how to:</p>
 <ul class="simple">
@@ -536,7 +536,7 @@ WARNING: Ignoring invalid distribution -ytest (c:\users\victor\anaconda3\envs\op
 </ul>
 </section>
 <section id="what-is-a-time-series">
-<h2><span class="section-number">6.2. </span>What is a Time Series?<a class="headerlink" href="#what-is-a-time-series" title="Link to this heading">#</a></h2>
+<h2>What is a Time Series?<a class="headerlink" href="#what-is-a-time-series" title="Link to this heading">#</a></h2>
 <p>The basic object of forecasting is the time series, which is a set of observations recorded over time. In forecasting applications, the observations are typically recorded with a regular frequency, like daily or monthly.</p>
 <div class="admonition seealso">
 <p class="admonition-title">See also</p>
@@ -609,13 +609,13 @@ WARNING: Ignoring invalid distribution -ytest (c:\users\victor\anaconda3\envs\op
 <p>This series records the number of hardcover book sales at a retail store over 30 days. Notice that we have a single column of observations <span class="math notranslate nohighlight">\(Hardcover\)</span> with a time index <span class="math notranslate nohighlight">\(Date\)</span>.</p>
 </section>
 <section id="linear-regression-with-time-series">
-<h2><span class="section-number">6.3. </span>Linear Regression with Time Series<a class="headerlink" href="#linear-regression-with-time-series" title="Link to this heading">#</a></h2>
+<h2>Linear Regression with Time Series<a class="headerlink" href="#linear-regression-with-time-series" title="Link to this heading">#</a></h2>
 <p>For the first part of this course, we’ll use the linear regression algorithm to construct forecasting models. Linear regression is widely used in practice and adapts naturally to even complex forecasting tasks.</p>
 <p>The linear regression algorithm learns how to make a weighted sum from its input features. For two features, we would have:</p>
 <p><span class="math notranslate nohighlight">\(target = weight_1 * feature_1 + weight_2 * feature_2 + bias\)</span></p>
 <p>During training, the regression algorithm learns values for the parameters <span class="math notranslate nohighlight">\(weight_1\)</span>, <span class="math notranslate nohighlight">\(weight_2\)</span>, and <span class="math notranslate nohighlight">\(bias\)</span> that best fit the <span class="math notranslate nohighlight">\(target\)</span>. (This algorithm is often called ordinary least squares since it chooses values that minimize the squared error between the target and the predictions.) The weights are also called regression coefficients and the bias is also called the intercept because it tells you where the graph of this function crosses the y-axis.</p>
 <section id="time-step-features">
-<h3><span class="section-number">6.3.1. </span>Time-step features<a class="headerlink" href="#time-step-features" title="Link to this heading">#</a></h3>
+<h3>Time-step features<a class="headerlink" href="#time-step-features" title="Link to this heading">#</a></h3>
 <p>There are two kinds of features unique to time series: time-step features and lag features.</p>
 <p>Time-step features are features we can derive directly from the time index. The most basic time-step feature is the time dummy, which counts off time steps in the series from beginning to end.</p>
 <div class="cell docutils container">
@@ -723,7 +723,7 @@ WARNING: Ignoring invalid distribution -ytest (c:\users\victor\anaconda3\envs\op
 <p>Time-step features let you model time dependence. A series is time dependent if its values can be predicted from the time they occured. In the Hardcover Sales series, we can predict that sales later in the month are generally higher than sales earlier in the month.</p>
 </section>
 <section id="lag-features">
-<h3><span class="section-number">6.3.2. </span>Lag features<a class="headerlink" href="#lag-features" title="Link to this heading">#</a></h3>
+<h3>Lag features<a class="headerlink" href="#lag-features" title="Link to this heading">#</a></h3>
 <p>To make a lag feature we shift the observations of the target series so that they appear to have occured later in time. Here we’ve created a 1-step lag feature, though shifting by multiple steps is possible too.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -811,7 +811,7 @@ WARNING: Ignoring invalid distribution -ytest (c:\users\victor\anaconda3\envs\op
 </section>
 </section>
 <section id="example-tunnel-traffic">
-<h2><span class="section-number">6.4. </span>Example - Tunnel Traffic<a class="headerlink" href="#example-tunnel-traffic" title="Link to this heading">#</a></h2>
+<h2>Example - Tunnel Traffic<a class="headerlink" href="#example-tunnel-traffic" title="Link to this heading">#</a></h2>
 <p>Tunnel Traffic is a time series describing the number of vehicles traveling through the Baregg Tunnel in Switzerland each day from November 2003 to November 2005. In this example, we’ll get some practice applying linear regression to time-step features and lag features.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -923,7 +923,7 @@ WARNING: Ignoring invalid distribution -ytest (c:\users\victor\anaconda3\envs\op
 </div></div></div>
 </div>
 <section id="time-step-feature">
-<h3><span class="section-number">6.4.1. </span>Time-step feature<a class="headerlink" href="#time-step-feature" title="Link to this heading">#</a></h3>
+<h3>Time-step feature<a class="headerlink" href="#time-step-feature" title="Link to this heading">#</a></h3>
 <p>Provided the time series doesn’t have any missing dates, we can create a time dummy by counting out the length of the series.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -1028,7 +1028,7 @@ WARNING: Ignoring invalid distribution -ytest (c:\users\victor\anaconda3\envs\op
 </div>
 </section>
 <section id="lag-feature">
-<h3><span class="section-number">6.4.2. </span>Lag feature<a class="headerlink" href="#lag-feature" title="Link to this heading">#</a></h3>
+<h3>Lag feature<a class="headerlink" href="#lag-feature" title="Link to this heading">#</a></h3>
 <p>Pandas provides us a simple method to lag a series, the <span class="math notranslate nohighlight">\(shift\)</span> method.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -1153,9 +1153,9 @@ WARNING: Ignoring invalid distribution -ytest (c:\users\victor\anaconda3\envs\op
 </section>
 </section>
 <section id="forecasting-with-deep-learning">
-<h2><span class="section-number">6.5. </span>Forecasting With Deep Learning<a class="headerlink" href="#forecasting-with-deep-learning" title="Link to this heading">#</a></h2>
+<h2>Forecasting With Deep Learning<a class="headerlink" href="#forecasting-with-deep-learning" title="Link to this heading">#</a></h2>
 <section id="defining-the-forecasting-task">
-<h3><span class="section-number">6.5.1. </span>Defining the Forecasting Task<a class="headerlink" href="#defining-the-forecasting-task" title="Link to this heading">#</a></h3>
+<h3>Defining the Forecasting Task<a class="headerlink" href="#defining-the-forecasting-task" title="Link to this heading">#</a></h3>
 <p>There are two things to establish before designing a forecasting model:</p>
 <ul class="simple">
 <li><p>what information is available at the time a forecast is made (features),</p></li>
@@ -1166,13 +1166,13 @@ WARNING: Ignoring invalid distribution -ytest (c:\users\victor\anaconda3\envs\op
 <figure class="align-default" id="def">
 <a class="bg-white mb-1 reference internal image-reference" href="https://static-1300131294.cos.ap-shanghai.myqcloud.com/images/deep-learning/time-series/01_def.png"><img alt="https://static-1300131294.cos.ap-shanghai.myqcloud.com/images/deep-learning/time-series/01_def.png" class="bg-white mb-1" src="https://static-1300131294.cos.ap-shanghai.myqcloud.com/images/deep-learning/time-series/01_def.png" style="width: 90%;" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 6.1 </span><span class="caption-text">A three-step forecast horizon with a two-step lead time, using four lag features. The figure represents what would be a single row of training data – data for a single prediction, in other words.</span><a class="headerlink" href="#def" title="Link to this image">#</a></p>
+<p><span class="caption-number">Fig. 9 </span><span class="caption-text">A three-step forecast horizon with a two-step lead time, using four lag features. The figure represents what would be a single row of training data – data for a single prediction, in other words.</span><a class="headerlink" href="#def" title="Link to this image">#</a></p>
 </figcaption>
 </figure>
 <p>The time between the origin and the horizon is the lead time (or sometimes latency) of the forecast. A forecast’s lead time is described by the number of steps from origin to horizon: a “1-step ahead” or “3-step ahead” forecast, say. In practice, it may be necessary for a forecast to begin multiple steps ahead of the origin because of delays in data acquisition or processing.</p>
 </section>
 <section id="preparing-data-for-forecasting">
-<h3><span class="section-number">6.5.2. </span>Preparing Data for Forecasting<a class="headerlink" href="#preparing-data-for-forecasting" title="Link to this heading">#</a></h3>
+<h3>Preparing Data for Forecasting<a class="headerlink" href="#preparing-data-for-forecasting" title="Link to this heading">#</a></h3>
 <p>In order to forecast time series with ML algorithms, we need to transform the series into a dataframe we can use with those algorithms. (Unless, of course, you are only using deterministic features like trend and seasonality.)</p>
 <p>We saw the first half of this process in Lesson 4 when we created a feature set out of lags. The second half is preparing the target. How we do this depends on the forecasting task.</p>
 <p>Each row in a dataframe represents a single forecast. The time index of the row is the first time in the forecast horizon, but we arrange values for the entire horizon in the same row. For multistep forecasts, this means we are requiring a model to produce multiple outputs, one for each step.</p>
@@ -1368,51 +1368,51 @@ WARNING: Ignoring invalid distribution -ytest (c:\users\victor\anaconda3\envs\op
 <p>The above illustrates how a dataset would be prepared similar to the Defining a Forecast figure: a three-step forecasting task with a two-step lead time using five lag features. The original time series is y_step_1. The missing values we could either fill-in or drop.</p>
 </section>
 <section id="multistep-forecasting-strategies">
-<h3><span class="section-number">6.5.3. </span>Multistep Forecasting Strategies<a class="headerlink" href="#multistep-forecasting-strategies" title="Link to this heading">#</a></h3>
+<h3>Multistep Forecasting Strategies<a class="headerlink" href="#multistep-forecasting-strategies" title="Link to this heading">#</a></h3>
 <p>There are a number of strategies for producing the multiple target steps required for a forecast. We’ll outline four common strategies, each with strengths and weaknesses.</p>
 <section id="multioutput-model">
-<h4><span class="section-number">6.5.3.1. </span>Multioutput model<a class="headerlink" href="#multioutput-model" title="Link to this heading">#</a></h4>
+<h4>Multioutput model<a class="headerlink" href="#multioutput-model" title="Link to this heading">#</a></h4>
 <p>Use a model that produces multiple outputs naturally. Linear regression and neural networks can both produce multiple outputs. This strategy is simple and efficient, but not possible for every algorithm you might want to use. XGBoost can’t do this, for instance.</p>
 <figure class="align-default" id="multioutput">
 <a class="bg-white mb-1 reference internal image-reference" href="https://static-1300131294.cos.ap-shanghai.myqcloud.com/images/deep-learning/time-series/02_multioutput.png"><img alt="https://static-1300131294.cos.ap-shanghai.myqcloud.com/images/deep-learning/time-series/02_multioutput.png" class="bg-white mb-1" src="https://static-1300131294.cos.ap-shanghai.myqcloud.com/images/deep-learning/time-series/02_multioutput.png" style="width: 90%;" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 6.2 </span><span class="caption-text">Multioutput Model</span><a class="headerlink" href="#multioutput" title="Link to this image">#</a></p>
+<p><span class="caption-number">Fig. 10 </span><span class="caption-text">Multioutput Model</span><a class="headerlink" href="#multioutput" title="Link to this image">#</a></p>
 </figcaption>
 </figure>
 </section>
 <section id="direct-strategy">
-<h4><span class="section-number">6.5.3.2. </span>Direct strategy<a class="headerlink" href="#direct-strategy" title="Link to this heading">#</a></h4>
+<h4>Direct strategy<a class="headerlink" href="#direct-strategy" title="Link to this heading">#</a></h4>
 <p>Train a separate model for each step in the horizon: one model forecasts 1-step ahead, another 2-steps ahead, and so on. Forecasting 1-step ahead is a different problem than 2-steps ahead (and so on), so it can help to have a different model make forecasts for each step. The downside is that training lots of models can be computationally expensive.</p>
 <figure class="align-default" id="direct">
 <a class="bg-white mb-1 reference internal image-reference" href="https://static-1300131294.cos.ap-shanghai.myqcloud.com/images/deep-learning/time-series/03_direct.png"><img alt="https://static-1300131294.cos.ap-shanghai.myqcloud.com/images/deep-learning/time-series/03_direct.png" class="bg-white mb-1" src="https://static-1300131294.cos.ap-shanghai.myqcloud.com/images/deep-learning/time-series/03_direct.png" style="width: 90%;" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 6.3 </span><span class="caption-text">Direct Strategy</span><a class="headerlink" href="#direct" title="Link to this image">#</a></p>
+<p><span class="caption-number">Fig. 11 </span><span class="caption-text">Direct Strategy</span><a class="headerlink" href="#direct" title="Link to this image">#</a></p>
 </figcaption>
 </figure>
 </section>
 <section id="recursive-strategy">
-<h4><span class="section-number">6.5.3.3. </span>Recursive strategy<a class="headerlink" href="#recursive-strategy" title="Link to this heading">#</a></h4>
+<h4>Recursive strategy<a class="headerlink" href="#recursive-strategy" title="Link to this heading">#</a></h4>
 <p>Train a single one-step model and use its forecasts to update the lag features for the next step. With the recursive method, we feed a model’s 1-step forecast back in to that same model to use as a lag feature for the next forecasting step. We only need to train one model, but since errors will propagate from step to step, forecasts can be inaccurate for long horizons.</p>
 <figure class="align-default" id="recursive">
 <a class="bg-white mb-1 reference internal image-reference" href="https://static-1300131294.cos.ap-shanghai.myqcloud.com/images/deep-learning/time-series/04_recursive.png"><img alt="https://static-1300131294.cos.ap-shanghai.myqcloud.com/images/deep-learning/time-series/04_recursive.png" class="bg-white mb-1" src="https://static-1300131294.cos.ap-shanghai.myqcloud.com/images/deep-learning/time-series/04_recursive.png" style="width: 90%;" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 6.4 </span><span class="caption-text">Recursive Strategy</span><a class="headerlink" href="#recursive" title="Link to this image">#</a></p>
+<p><span class="caption-number">Fig. 12 </span><span class="caption-text">Recursive Strategy</span><a class="headerlink" href="#recursive" title="Link to this image">#</a></p>
 </figcaption>
 </figure>
 </section>
 <section id="dirrec-strategy">
-<h4><span class="section-number">6.5.3.4. </span>DirRec strategy<a class="headerlink" href="#dirrec-strategy" title="Link to this heading">#</a></h4>
+<h4>DirRec strategy<a class="headerlink" href="#dirrec-strategy" title="Link to this heading">#</a></h4>
 <p>A combination of the direct and recursive strategies: train a model for each step and use forecasts from previous steps as new lag features. Step by step, each model gets an additional lag input. Since each model always has an up-to-date set of lag features, the DirRec strategy can capture serial dependence better than Direct, but it can also suffer from error propagation like Recursive.</p>
 <figure class="align-default" id="dirrec">
 <a class="bg-white mb-1 reference internal image-reference" href="https://static-1300131294.cos.ap-shanghai.myqcloud.com/images/deep-learning/time-series/05_dirrec.png"><img alt="https://static-1300131294.cos.ap-shanghai.myqcloud.com/images/deep-learning/time-series/05_dirrec.png" class="bg-white mb-1" src="https://static-1300131294.cos.ap-shanghai.myqcloud.com/images/deep-learning/time-series/05_dirrec.png" style="width: 90%;" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 6.5 </span><span class="caption-text">DirRec Strategy</span><a class="headerlink" href="#dirrec" title="Link to this image">#</a></p>
+<p><span class="caption-number">Fig. 13 </span><span class="caption-text">DirRec Strategy</span><a class="headerlink" href="#dirrec" title="Link to this image">#</a></p>
 </figcaption>
 </figure>
 </section>
 </section>
 <section id="example-flu-trends">
-<h3><span class="section-number">6.5.4. </span>Example - Flu Trends<a class="headerlink" href="#example-flu-trends" title="Link to this heading">#</a></h3>
+<h3>Example - Flu Trends<a class="headerlink" href="#example-flu-trends" title="Link to this heading">#</a></h3>
 <p>In this example we’ll apply the MultiOutput and Direct strategies to the Flu Trends data from Lesson 4, this time making true forecasts for multiple weeks beyond the training period.</p>
 <p>We’ll define our forecasting task to have an 8-week horizon with a 1-week lead time. In other words, we’ll be forecasting eight weeks of flu cases starting with the following week.</p>
 <p>The hidden cell sets up the example and defines a helper function <span class="math notranslate nohighlight">\(plot_multistep\)</span>.</p>
@@ -1511,7 +1511,7 @@ WARNING: Ignoring invalid distribution -ytest (c:\users\victor\anaconda3\envs\op
 </div>
 </div>
 <section id="id1">
-<h4><span class="section-number">6.5.4.1. </span>Multioutput model<a class="headerlink" href="#id1" title="Link to this heading">#</a></h4>
+<h4>Multioutput model<a class="headerlink" href="#id1" title="Link to this heading">#</a></h4>
 <p>We’ll use linear regression as a MultiOutput strategy. Once we have our data prepared for multiple outputs, training and prediction is the same as always.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -1555,7 +1555,7 @@ Test RMSE: 582.33
 </div>
 </section>
 <section id="id2">
-<h4><span class="section-number">6.5.4.2. </span>Direct strategy<a class="headerlink" href="#id2" title="Link to this heading">#</a></h4>
+<h4>Direct strategy<a class="headerlink" href="#id2" title="Link to this heading">#</a></h4>
 <p>XGBoost can’t produce multiple outputs for regression tasks. But by applying the Direct reduction strategy, we can still use it to produce multi-step forecasts. This is as easy as wrapping it with scikit-learn’s <span class="math notranslate nohighlight">\(MultiOutputRegressor\)</span>.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -1601,11 +1601,11 @@ Test RMSE: 526.45
 </section>
 </section>
 <section id="your-turn">
-<h2><span class="section-number">6.6. </span>Your turn! 🚀<a class="headerlink" href="#your-turn" title="Link to this heading">#</a></h2>
+<h2>Your turn! 🚀<a class="headerlink" href="#your-turn" title="Link to this heading">#</a></h2>
 <!-- You can practice your time series skills by following the assignment [time series forecasting assignment](../assignments/deep-learning/time-series-forecasting-assignment.ipynb) -->
 </section>
 <section id="acknowledgments">
-<h2><span class="section-number">6.7. </span>Acknowledgments<a class="headerlink" href="#acknowledgments" title="Link to this heading">#</a></h2>
+<h2>Acknowledgments<a class="headerlink" href="#acknowledgments" title="Link to this heading">#</a></h2>
 <p>Thanks to <a class="reference external" href="https://www.kaggle.com/">kaggle</a> for creating the open-source course <a class="reference external" href="https://www.kaggle.com/learn/time-series">Time Series</a>. It inspires the majority of the content in this chapter.</p>
 </section>
 </section>
@@ -1646,7 +1646,7 @@ Test RMSE: 526.45
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title"><span class="section-number">5. </span>Long-short term memory</p>
+        <p class="prev-next-title">Long-short term memory</p>
       </div>
     </a>
     <a class="right-next"
@@ -1654,7 +1654,7 @@ Test RMSE: 526.45
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title"><span class="section-number">7. </span>Autoencoder</p>
+        <p class="prev-next-title">Autoencoder</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
@@ -1674,37 +1674,37 @@ Test RMSE: 526.45
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#overiew">6.1. Overiew</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#what-is-a-time-series">6.2. What is a Time Series?</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#linear-regression-with-time-series">6.3. Linear Regression with Time Series</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#time-step-features">6.3.1. Time-step features</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#lag-features">6.3.2. Lag features</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#overiew">Overiew</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#what-is-a-time-series">What is a Time Series?</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#linear-regression-with-time-series">Linear Regression with Time Series</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#time-step-features">Time-step features</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#lag-features">Lag features</a></li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#example-tunnel-traffic">6.4. Example - Tunnel Traffic</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#time-step-feature">6.4.1. Time-step feature</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#lag-feature">6.4.2. Lag feature</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#example-tunnel-traffic">Example - Tunnel Traffic</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#time-step-feature">Time-step feature</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#lag-feature">Lag feature</a></li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#forecasting-with-deep-learning">6.5. Forecasting With Deep Learning</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#defining-the-forecasting-task">6.5.1. Defining the Forecasting Task</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#preparing-data-for-forecasting">6.5.2. Preparing Data for Forecasting</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#multistep-forecasting-strategies">6.5.3. Multistep Forecasting Strategies</a><ul class="nav section-nav flex-column">
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#multioutput-model">6.5.3.1. Multioutput model</a></li>
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#direct-strategy">6.5.3.2. Direct strategy</a></li>
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#recursive-strategy">6.5.3.3. Recursive strategy</a></li>
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#dirrec-strategy">6.5.3.4. DirRec strategy</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#forecasting-with-deep-learning">Forecasting With Deep Learning</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#defining-the-forecasting-task">Defining the Forecasting Task</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#preparing-data-for-forecasting">Preparing Data for Forecasting</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#multistep-forecasting-strategies">Multistep Forecasting Strategies</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#multioutput-model">Multioutput model</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#direct-strategy">Direct strategy</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#recursive-strategy">Recursive strategy</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#dirrec-strategy">DirRec strategy</a></li>
 </ul>
 </li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#example-flu-trends">6.5.4. Example - Flu Trends</a><ul class="nav section-nav flex-column">
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id1">6.5.4.1. Multioutput model</a></li>
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id2">6.5.4.2. Direct strategy</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#example-flu-trends">Example - Flu Trends</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id1">Multioutput model</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id2">Direct strategy</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#your-turn">6.6. Your turn! 🚀</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#acknowledgments">6.7. Acknowledgments</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#your-turn">Your turn! 🚀</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#acknowledgments">Acknowledgments</a></li>
 </ul>
   </nav></div>
 

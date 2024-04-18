@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>7. Autoencoder &#8212; JackW_DL</title>
+    <title>Autoencoder &#8212; JackW_DL</title>
   
   
   
@@ -42,7 +42,7 @@
   <script src="../_static/vendor/fontawesome/6.5.1/js/all.min.js?digest=8d27b9dea8ad943066ae"></script>
 
     <script src="../_static/documentation_options.js?v=9eb32ce0"></script>
-    <script src="../_static/doctools.js?v=888ff710"></script>
+    <script src="../_static/doctools.js?v=9a2dae69"></script>
     <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
     <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
     <script src="../_static/copybutton.js?v=f281be69"></script>
@@ -64,8 +64,8 @@
     <link rel="icon" href="../_static/fav.png"/>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="8. Object detection" href="object-detection.html" />
-    <link rel="prev" title="6. Time series" href="time-series.html" />
+    <link rel="next" title="Object detection" href="object-detection.html" />
+    <link rel="prev" title="Time series" href="time-series.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -174,28 +174,28 @@
     <div class="bd-toc-item navbar-nav active">
         <p aria-level="2" class="caption" role="heading"><span class="caption-text">DEEP LEARNING</span></p>
 <ul class="current nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="dl-overview.html">1. Intro to Deep Learning</a></li>
-<li class="toctree-l1"><a class="reference internal" href="nn.html">2. Neural Networks</a></li>
-<li class="toctree-l1 has-children"><a class="reference internal" href="cnn/cnn.html">3. Convolutional Neural Networks</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-1"><i class="fa-solid fa-chevron-down"></i></label><ul>
-<li class="toctree-l2"><a class="reference internal" href="cnn/cnn-vgg.html">3.9. Stylenet / Neural-Style</a></li>
-<li class="toctree-l2"><a class="reference internal" href="cnn/cnn-deepdream.html">3.10. Deepdream in TensorFlow</a></li>
+<li class="toctree-l1"><a class="reference internal" href="dl-overview.html">Intro to Deep Learning</a></li>
+<li class="toctree-l1"><a class="reference internal" href="nn.html">Neural Networks</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="cnn/cnn.html">Convolutional Neural Networks</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-1"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="cnn/cnn-vgg.html">Stylenet / Neural-Style</a></li>
+<li class="toctree-l2"><a class="reference internal" href="cnn/cnn-deepdream.html">Deepdream in TensorFlow</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="rnn.html">4. Recurrent Neural Networks</a></li>
-<li class="toctree-l1"><a class="reference internal" href="lstm.html">5. Long-short term memory</a></li>
-<li class="toctree-l1"><a class="reference internal" href="time-series.html">6. Time series</a></li>
-<li class="toctree-l1 current active"><a class="current reference internal" href="#">7. Autoencoder</a></li>
-<li class="toctree-l1"><a class="reference internal" href="object-detection.html">8. Object detection</a></li>
-<li class="toctree-l1"><a class="reference internal" href="image-classification.html">9. Image classification</a></li>
-<li class="toctree-l1"><a class="reference internal" href="image-segmentation.html">10. Image segmentation</a></li>
-<li class="toctree-l1 has-children"><a class="reference internal" href="nlp/nlp.html">11. Natural Language Processing</a><input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-2"><i class="fa-solid fa-chevron-down"></i></label><ul>
-<li class="toctree-l2"><a class="reference internal" href="nlp/text-preprocessing.html">11.7.1. Text Preprocessing</a></li>
-<li class="toctree-l2"><a class="reference internal" href="nlp/text-representation.html">11.7.2. Word embedding</a></li>
+<li class="toctree-l1"><a class="reference internal" href="rnn.html">Recurrent Neural Networks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="lstm.html">Long-short term memory</a></li>
+<li class="toctree-l1"><a class="reference internal" href="time-series.html">Time series</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Autoencoder</a></li>
+<li class="toctree-l1"><a class="reference internal" href="object-detection.html">Object detection</a></li>
+<li class="toctree-l1"><a class="reference internal" href="image-classification.html">Image classification</a></li>
+<li class="toctree-l1"><a class="reference internal" href="image-segmentation.html">Image segmentation</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="nlp/nlp.html">Natural Language Processing</a><input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-2"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="nlp/text-preprocessing.html">Text Preprocessing</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nlp/text-representation.html">Word embedding</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="gan.html">12. Generative adversarial networks</a></li>
-<li class="toctree-l1"><a class="reference internal" href="difussion-model.html">13. Diffusion Model</a></li>
-<li class="toctree-l1"><a class="reference internal" href="dqn.html">14. Deep Q-learning</a></li>
+<li class="toctree-l1"><a class="reference internal" href="gan.html">Generative adversarial networks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="difussion-model.html">Diffusion Model</a></li>
+<li class="toctree-l1"><a class="reference internal" href="dqn.html">Deep Q-learning</a></li>
 </ul>
 
     </div>
@@ -457,17 +457,17 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#overview">7.1. Overview</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#unsupervised-learning">7.2. Unsupervised Learning</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#fully-connected-autoencoder">7.3. Fully-connected Autoencoder</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#potential-autoencoder-applications">7.3.1. Potential Autoencoder Applications</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#overview">Overview</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#unsupervised-learning">Unsupervised Learning</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#fully-connected-autoencoder">Fully-connected Autoencoder</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#potential-autoencoder-applications">Potential Autoencoder Applications</a></li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#convolutional-autoencoder">7.4. Convolutional Autoencoder</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#code">7.5. Code</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#your-turn">7.6. Your turn! 🚀</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#self-study">7.7. Self study</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#acknowledgments">7.8. Acknowledgments</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#convolutional-autoencoder">Convolutional Autoencoder</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#code">Code</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#your-turn">Your turn! 🚀</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#self-study">Self study</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#acknowledgments">Acknowledgments</a></li>
 </ul>
             </nav>
         </div>
@@ -497,13 +497,13 @@ document.write(`
 </details>
 </div>
 <section class="tex2jax_ignore mathjax_ignore" id="autoencoder">
-<h1><span class="section-number">7. </span>Autoencoder<a class="headerlink" href="#autoencoder" title="Link to this heading">#</a></h1>
+<h1>Autoencoder<a class="headerlink" href="#autoencoder" title="Link to this heading">#</a></h1>
 <section id="overview">
-<h2><span class="section-number">7.1. </span>Overview<a class="headerlink" href="#overview" title="Link to this heading">#</a></h2>
+<h2>Overview<a class="headerlink" href="#overview" title="Link to this heading">#</a></h2>
 <p>An autoencoder is a type of artificial neural network used to learn efficient codings of unlabeled data (unsupervised learning). An autoencoder learns two functions: an encoding function that transforms the input data, and a decoding function that recreates the input data from the encoded representation. The autoencoder learns an efficient representation (encoding) for a set of data, typically for dimensionality reduction.</p>
 </section>
 <section id="unsupervised-learning">
-<h2><span class="section-number">7.2. </span>Unsupervised Learning<a class="headerlink" href="#unsupervised-learning" title="Link to this heading">#</a></h2>
+<h2>Unsupervised Learning<a class="headerlink" href="#unsupervised-learning" title="Link to this heading">#</a></h2>
 <p>Autoencoder is a kind of unsupervised learning, which means working with datasets without considering a target variable. There are some Applications and Goals for it:</p>
 <ul class="simple">
 <li><p>Finding hidden structures in data.</p></li>
@@ -520,7 +520,7 @@ document.write(`
 <figure class="align-default" id="id1">
 <img alt="https://static-1300131294.cos.ap-shanghai.myqcloud.com/images/deep-learning/autoencoder/01_PCA1.png" src="https://static-1300131294.cos.ap-shanghai.myqcloud.com/images/deep-learning/autoencoder/01_PCA1.png" />
 <figcaption>
-<p><span class="caption-number">Fig. 7.1 </span><span class="caption-text">Illustration of PCA</span><a class="headerlink" href="#id1" title="Link to this image">#</a></p>
+<p><span class="caption-number">Fig. 14 </span><span class="caption-text">Illustration of PCA</span><a class="headerlink" href="#id1" title="Link to this image">#</a></p>
 </figcaption>
 </figure>
 <ul class="simple">
@@ -529,7 +529,7 @@ document.write(`
 <figure class="align-default" id="id2">
 <img alt="https://static-1300131294.cos.ap-shanghai.myqcloud.com/images/deep-learning/autoencoder/02_PCA2.png" src="https://static-1300131294.cos.ap-shanghai.myqcloud.com/images/deep-learning/autoencoder/02_PCA2.png" />
 <figcaption>
-<p><span class="caption-number">Fig. 7.2 </span><span class="caption-text">Illustration of PCA</span><a class="headerlink" href="#id2" title="Link to this image">#</a></p>
+<p><span class="caption-number">Fig. 15 </span><span class="caption-text">Illustration of PCA</span><a class="headerlink" href="#id2" title="Link to this image">#</a></p>
 </figcaption>
 </figure>
 <ul class="simple">
@@ -538,17 +538,17 @@ document.write(`
 <figure class="align-default" id="id3">
 <img alt="https://static-1300131294.cos.ap-shanghai.myqcloud.com/images/deep-learning/autoencoder/03_PCA3.png" src="https://static-1300131294.cos.ap-shanghai.myqcloud.com/images/deep-learning/autoencoder/03_PCA3.png" />
 <figcaption>
-<p><span class="caption-number">Fig. 7.3 </span><span class="caption-text">Illustration of PCA</span><a class="headerlink" href="#id3" title="Link to this image">#</a></p>
+<p><span class="caption-number">Fig. 16 </span><span class="caption-text">Illustration of PCA</span><a class="headerlink" href="#id3" title="Link to this image">#</a></p>
 </figcaption>
 </figure>
 </section>
 <section id="fully-connected-autoencoder">
-<h2><span class="section-number">7.3. </span>Fully-connected Autoencoder<a class="headerlink" href="#fully-connected-autoencoder" title="Link to this heading">#</a></h2>
+<h2>Fully-connected Autoencoder<a class="headerlink" href="#fully-connected-autoencoder" title="Link to this heading">#</a></h2>
 <p>Here is an example of a basic fully-connected autoencoder</p>
 <figure class="align-default" id="id4">
 <img alt="https://static-1300131294.cos.ap-shanghai.myqcloud.com/images/deep-learning/autoencoder/04_simple.png" src="https://static-1300131294.cos.ap-shanghai.myqcloud.com/images/deep-learning/autoencoder/04_simple.png" />
 <figcaption>
-<p><span class="caption-number">Fig. 7.4 </span><span class="caption-text">Illustration of Fully Connected autoencoder</span><a class="headerlink" href="#id4" title="Link to this image">#</a></p>
+<p><span class="caption-number">Fig. 17 </span><span class="caption-text">Illustration of Fully Connected autoencoder</span><a class="headerlink" href="#id4" title="Link to this image">#</a></p>
 </figcaption>
 </figure>
 <div class="admonition note">
@@ -558,7 +558,7 @@ document.write(`
 <p>The loss function of this simple model is
 $<span class="math notranslate nohighlight">\(L(x, x') = \left\lVert x - x' \right\rVert^2_2 = \sum_i (x_i - x_i')^2\)</span>$</p>
 <section id="potential-autoencoder-applications">
-<h3><span class="section-number">7.3.1. </span>Potential Autoencoder Applications<a class="headerlink" href="#potential-autoencoder-applications" title="Link to this heading">#</a></h3>
+<h3>Potential Autoencoder Applications<a class="headerlink" href="#potential-autoencoder-applications" title="Link to this heading">#</a></h3>
 <p>And there are some potential autoencoder applications, for example:</p>
 <ul class="simple">
 <li><p>After training, disregard the output part, we can use embedding as input to classic machine learning methods (SVM, KNN, Random Forest, …).</p></li>
@@ -568,13 +568,13 @@ $<span class="math notranslate nohighlight">\(L(x, x') = \left\lVert x - x' \rig
 </section>
 </section>
 <section id="convolutional-autoencoder">
-<h2><span class="section-number">7.4. </span>Convolutional Autoencoder<a class="headerlink" href="#convolutional-autoencoder" title="Link to this heading">#</a></h2>
+<h2>Convolutional Autoencoder<a class="headerlink" href="#convolutional-autoencoder" title="Link to this heading">#</a></h2>
 <p>For convolutional autoencoder, we mainly use transposed convolution construct the output, and transposed convolution (sometimes called “deconvolution”) allows us to increase the size of the output feature map compared to the input feature map.</p>
 <p>The difference between regular convolution and transposed convolution can be seen from the following image.</p>
 <figure class="align-default" id="id5">
 <img alt="https://static-1300131294.cos.ap-shanghai.myqcloud.com/images/deep-learning/autoencoder/05_diff_conv.png" src="https://static-1300131294.cos.ap-shanghai.myqcloud.com/images/deep-learning/autoencoder/05_diff_conv.png" />
 <figcaption>
-<p><span class="caption-number">Fig. 7.5 </span><span class="caption-text">Difference between regular and transposed convolution</span><a class="headerlink" href="#id5" title="Link to this image">#</a></p>
+<p><span class="caption-number">Fig. 18 </span><span class="caption-text">Difference between regular and transposed convolution</span><a class="headerlink" href="#id5" title="Link to this image">#</a></p>
 </figcaption>
 </figure>
 <p>In transposed convolutions, we stride over the output; hence, larger strides will result in larger outputs (opposite to regular convolutions); and we pad the output; hence, larger padding will result in smaller output maps.</p>
@@ -582,7 +582,7 @@ $<span class="math notranslate nohighlight">\(L(x, x') = \left\lVert x - x' \rig
 <figure class="align-default" id="id6">
 <img alt="https://static-1300131294.cos.ap-shanghai.myqcloud.com/images/deep-learning/autoencoder/06_convmodel.png" src="https://static-1300131294.cos.ap-shanghai.myqcloud.com/images/deep-learning/autoencoder/06_convmodel.png" />
 <figcaption>
-<p><span class="caption-number">Fig. 7.6 </span><span class="caption-text">Structure of convoluted autoencoder</span><a class="headerlink" href="#id6" title="Link to this image">#</a></p>
+<p><span class="caption-number">Fig. 19 </span><span class="caption-text">Structure of convoluted autoencoder</span><a class="headerlink" href="#id6" title="Link to this image">#</a></p>
 </figcaption>
 </figure>
 <div class="admonition note">
@@ -596,7 +596,7 @@ $<span class="math notranslate nohighlight">\(L(x, x') = \left\lVert x - x' \rig
 </div>
 </section>
 <section id="code">
-<h2><span class="section-number">7.5. </span>Code<a class="headerlink" href="#code" title="Link to this heading">#</a></h2>
+<h2>Code<a class="headerlink" href="#code" title="Link to this heading">#</a></h2>
 <p>Let’s build a 2-layers auto-encoder with TensorFlow to compress images to a lower latent space and then reconstruct them. And this project will be done on MNIST dataste.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -845,19 +845,19 @@ step: 20000, loss: 0.003604
 </div>
 </section>
 <section id="your-turn">
-<h2><span class="section-number">7.6. </span>Your turn! 🚀<a class="headerlink" href="#your-turn" title="Link to this heading">#</a></h2>
+<h2>Your turn! 🚀<a class="headerlink" href="#your-turn" title="Link to this heading">#</a></h2>
 <!-- You can get a better understanding of autoencoders by practicing the three examples given in the [autoencoder](../assignments/deep-learning/autoencoder/autoencoder.ipynb) notebook. -->
 <!-- Assignment - [Base denoising autoencoder dimension reduction](../assignments/deep-learning/autoencoder/base-denoising-autoencoder-dimension-reduction.ipynb) -->
 </section>
 <section id="self-study">
-<h2><span class="section-number">7.7. </span>Self study<a class="headerlink" href="#self-study" title="Link to this heading">#</a></h2>
+<h2>Self study<a class="headerlink" href="#self-study" title="Link to this heading">#</a></h2>
 <p>You can refer to this book chapter for further study:</p>
 <ul class="simple">
 <li><p><a class="reference external" href="https://www.deeplearningbook.org/contents/autoencoders.html">deeplearningbook</a></p></li>
 </ul>
 </section>
 <section id="acknowledgments">
-<h2><span class="section-number">7.8. </span>Acknowledgments<a class="headerlink" href="#acknowledgments" title="Link to this heading">#</a></h2>
+<h2>Acknowledgments<a class="headerlink" href="#acknowledgments" title="Link to this heading">#</a></h2>
 <p>Thanks to <a class="reference external" href="https://github.com/rasbt">Sebastian Raschka</a> for creating the open-source project <a class="reference external" href="https://github.com/rasbt/stat453-deep-learning-ss20">stat453-deep-learning-ss20</a> and <a class="reference external" href="https://github.com/aymericdamien">Aymeric Damien</a> for creating the open-source project <a class="reference external" href="https://github.com/aymericdamien/TensorFlow-Examples/">TensorFlow-Examples</a>. They inspire the majority of the content in this chapter.</p>
 </section>
 </section>
@@ -898,7 +898,7 @@ step: 20000, loss: 0.003604
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title"><span class="section-number">6. </span>Time series</p>
+        <p class="prev-next-title">Time series</p>
       </div>
     </a>
     <a class="right-next"
@@ -906,7 +906,7 @@ step: 20000, loss: 0.003604
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title"><span class="section-number">8. </span>Object detection</p>
+        <p class="prev-next-title">Object detection</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
@@ -926,17 +926,17 @@ step: 20000, loss: 0.003604
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#overview">7.1. Overview</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#unsupervised-learning">7.2. Unsupervised Learning</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#fully-connected-autoencoder">7.3. Fully-connected Autoencoder</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#potential-autoencoder-applications">7.3.1. Potential Autoencoder Applications</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#overview">Overview</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#unsupervised-learning">Unsupervised Learning</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#fully-connected-autoencoder">Fully-connected Autoencoder</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#potential-autoencoder-applications">Potential Autoencoder Applications</a></li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#convolutional-autoencoder">7.4. Convolutional Autoencoder</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#code">7.5. Code</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#your-turn">7.6. Your turn! 🚀</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#self-study">7.7. Self study</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#acknowledgments">7.8. Acknowledgments</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#convolutional-autoencoder">Convolutional Autoencoder</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#code">Code</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#your-turn">Your turn! 🚀</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#self-study">Self study</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#acknowledgments">Acknowledgments</a></li>
 </ul>
   </nav></div>
 
