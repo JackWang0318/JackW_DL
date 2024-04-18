@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Learn DL together, at ease &#8212; JackW_DL</title>
+    <title>Deep Learning Open Book &#8212; JackW_DL</title>
   
   
   
@@ -386,7 +386,9 @@ document.write(`
   </button>
 `);
 </script>
-
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
 </div></div>
       
     </div>
@@ -397,11 +399,19 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Learn DL together, at ease</h1>
+    <h1>Deep Learning Open Book</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
             
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#author-jack-w">Author: Jack_W</a></li>
+</ul>
+            </nav>
         </div>
     </div>
 </div>
@@ -411,111 +421,115 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="learn-dl-together-at-ease">
-<h1>Learn DL together, at ease<a class="headerlink" href="#learn-dl-together-at-ease" title="Link to this heading">#</a></h1>
+  <section class="tex2jax_ignore mathjax_ignore" id="deep-learning-open-book">
+<h1>Deep Learning Open Book<a class="headerlink" href="#deep-learning-open-book" title="Link to this heading">#</a></h1>
+<section id="author-jack-w">
+<h2>Author: Jack_W<a class="headerlink" href="#author-jack-w" title="Link to this heading">#</a></h2>
+<center><img src="./assets/images/ml_vs_dl.png" width="70%" class="bg-white mb-1" ><br> Image: ML_vs_DL</center>
 <!-- `````{grid} 2
 :reverse:
-
-```{grid-item}
-:columns: 3
-:class: sd-m-auto
-
+<div class="sd-col sd-d-flex-column sd-col-3 sd-col-xs-3 sd-col-sm-3 sd-col-md-3 sd-col-lg-3 sd-m-auto docutils">
 <img src="./logo.png" style="width:50%;height:50%"/>
+</div>
+<div class="sd-col sd-d-flex-column sd-col-9 sd-col-xs-9 sd-col-sm-9 sd-col-md-9 sd-col-lg-9 sd-fs-3 docutils">
+<p>An interactive and visual Deep Learning book - with code and assignment</p>
+</div>
+<div class="highlight---&gt; notranslate"><div class="highlight"><pre><span></span>
+````{grid} 1 1 2 3
+:class-container: text-center
+:gutter: 3
 
+```{grid-item-card}
+:link: deep-learning/nn
+:link-type: doc
+:class-header: bg-light
+
+Neural Networks 👨‍💻
+^^^
+
+Neural networks are a class of machine learning models inspired by the structure and function of the human brain.
+They consist of interconnected nodes (neurons) organized in layers, including an input layer, one or more hidden layers, and an output layer.
+Each neuron processes input data by applying a weighted sum, followed by an activation function, to produce an output.
+Neural networks are trained using algorithms like backpropagation, where the model adjusts its internal parameters (weights) based on the errors between predicted and actual outputs.
++++
+Start to read {fas}`arrow-right`
 ```
 
+```{grid-item-card}
+:link: deep-learning/cnn/cnn
+:link-type: doc
+:class-header: bg-light
 
-````{grid-item}
-:columns: 9
-:class: sd-fs-3
+CNN Basics💾
+^^^
 
-An interactive and visual Deep Learning book - with code and assignment
+Convolutional Neural Networks are a specialized type of neural network designed for processing structured grid-like data, such as images.
+They consist of multiple layers, including convolutional layers, pooling layers, and fully connected layers.
+CNNs use convolutional operations to extract features from input images, preserving the spatial relationships between pixels.
+Pooling layers reduce the dimensionality of feature maps, making the model more computationally efficient.
+CNNs have been highly successful in image classification, object detection, and other computer vision tasks.
++++
+Start to read {fas}`arrow-right`
+```
 
+```{grid-item-card}
+:link: deep-learning/rnn
+:link-type: doc
+:class-header: bg-light
 
-````
-````` -->
-<div class="sd-container-fluid sd-sphinx-override sd-mb-4 text-center docutils">
-<div class="sd-row sd-row-cols-1 sd-row-cols-xs-1 sd-row-cols-sm-1 sd-row-cols-md-2 sd-row-cols-lg-3 sd-g-3 sd-g-xs-3 sd-g-sm-3 sd-g-md-3 sd-g-lg-3 docutils">
-<div class="sd-col sd-d-flex-row docutils">
-<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm sd-card-hover docutils">
-<div class="sd-card-header bg-light docutils">
-<p class="sd-card-text">Neural Networks 👨‍💻</p>
+RNN Basics 🚀
+^^^
+
+Recurrent Neural Networks are designed to work with sequential data, such as time series or natural language.
+They contain recurrent connections that allow information to persist over time, enabling the network to capture temporal dependencies.
+RNNs process input sequences one element at a time while maintaining an internal state (hidden state) that evolves as new inputs are processed.
+Long Short-Term Memory (LSTM) and Gated Recurrent Unit (GRU) are popular variants of RNNs that address the vanishing gradient problem and better capture long-term dependencies.
+RNNs are widely used in tasks such as machine translation, speech recognition, and sentiment analysis, where understanding context and sequential patterns is crucial.
++++
+Start to read {fas}`arrow-right`
+```
+
+```{grid-item-card}
+:link: deep-learning/rnn
+:link-type: doc
+:class-header: bg-light
+
+xxx Basics 🚀
+^^^
+
+TODO: RNNs are ...
++++
+Start to read {fas}`arrow-right`
+```
+
+```{grid-item-card}
+:link: deep-learning/rnn
+:link-type: doc
+:class-header: bg-light
+
+xxx Basics 🚀
+^^^
+
+TODO: RNNs are ...
++++
+Start to read {fas}`arrow-right`
+```
+
+```{grid-item-card}
+:link: deep-learning/rnn
+:link-type: doc
+:class-header: bg-light
+
+xxx Basics 🚀
+^^^
+
+TODO: RNNs are ...
++++
+Start to read {fas}`arrow-right`
+```
+</pre></div>
 </div>
-<div class="sd-card-body docutils">
-<p class="sd-card-text">TODO: Neural Networks are…</p>
-</div>
-<div class="sd-card-footer docutils">
-<p class="sd-card-text">Start to read <span class="fas fa-arrow-right"></span></p>
-</div>
-<a class="sd-stretched-link reference internal" href="deep-learning/nn.html"><span class="doc"></span></a></div>
-</div>
-<div class="sd-col sd-d-flex-row docutils">
-<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm sd-card-hover docutils">
-<div class="sd-card-header bg-light docutils">
-<p class="sd-card-text">CNN Basics💾</p>
-</div>
-<div class="sd-card-body docutils">
-<p class="sd-card-text">TODO: CNNs are …</p>
-</div>
-<div class="sd-card-footer docutils">
-<p class="sd-card-text">Start to read <span class="fas fa-arrow-right"></span></p>
-</div>
-<a class="sd-stretched-link reference internal" href="deep-learning/cnn/cnn.html"><span class="doc"></span></a></div>
-</div>
-<div class="sd-col sd-d-flex-row docutils">
-<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm sd-card-hover docutils">
-<div class="sd-card-header bg-light docutils">
-<p class="sd-card-text">RNN Basics 🚀</p>
-</div>
-<div class="sd-card-body docutils">
-<p class="sd-card-text">TODO: RNNs are …</p>
-</div>
-<div class="sd-card-footer docutils">
-<p class="sd-card-text">Start to read <span class="fas fa-arrow-right"></span></p>
-</div>
-<a class="sd-stretched-link reference internal" href="deep-learning/rnn.html"><span class="doc"></span></a></div>
-</div>
-<div class="sd-col sd-d-flex-row docutils">
-<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm sd-card-hover docutils">
-<div class="sd-card-header bg-light docutils">
-<p class="sd-card-text">xxx Basics 🚀</p>
-</div>
-<div class="sd-card-body docutils">
-<p class="sd-card-text">TODO: RNNs are …</p>
-</div>
-<div class="sd-card-footer docutils">
-<p class="sd-card-text">Start to read <span class="fas fa-arrow-right"></span></p>
-</div>
-<a class="sd-stretched-link reference internal" href="deep-learning/rnn.html"><span class="doc"></span></a></div>
-</div>
-<div class="sd-col sd-d-flex-row docutils">
-<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm sd-card-hover docutils">
-<div class="sd-card-header bg-light docutils">
-<p class="sd-card-text">xxx Basics 🚀</p>
-</div>
-<div class="sd-card-body docutils">
-<p class="sd-card-text">TODO: RNNs are …</p>
-</div>
-<div class="sd-card-footer docutils">
-<p class="sd-card-text">Start to read <span class="fas fa-arrow-right"></span></p>
-</div>
-<a class="sd-stretched-link reference internal" href="deep-learning/rnn.html"><span class="doc"></span></a></div>
-</div>
-<div class="sd-col sd-d-flex-row docutils">
-<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm sd-card-hover docutils">
-<div class="sd-card-header bg-light docutils">
-<p class="sd-card-text">xxx Basics 🚀</p>
-</div>
-<div class="sd-card-body docutils">
-<p class="sd-card-text">TODO: RNNs are …</p>
-</div>
-<div class="sd-card-footer docutils">
-<p class="sd-card-text">Start to read <span class="fas fa-arrow-right"></span></p>
-</div>
-<a class="sd-stretched-link reference internal" href="deep-learning/rnn.html"><span class="doc"></span></a></div>
-</div>
-</div>
-</div>
+</section>
 <div class="toctree-wrapper compound">
 </div>
 </section>
@@ -566,7 +580,20 @@ An interactive and visual Deep Learning book - with code and assignment
             
             
               
-                <div class="bd-sidebar-secondary bd-toc"></div>
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#author-jack-w">Author: Jack_W</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
               
             
           </div>
