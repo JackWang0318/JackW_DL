@@ -1,5 +1,7 @@
-# Learn DL together, at ease
+# Deep Learning Open Book 
+## Author: Jack_W 
 
+<center><img src="./assets/images/ml_vs_dl.png" width="70%" class="bg-white mb-1" ><br> Image: ML_vs_DL</center>
 <!-- `````{grid} 2
 :reverse:
 
@@ -34,7 +36,10 @@ An interactive and visual Deep Learning book - with code and assignment
 Neural Networks 👨‍💻
 ^^^
 
-TODO: Neural Networks are...
+Neural networks are a class of machine learning models inspired by the structure and function of the human brain.
+They consist of interconnected nodes (neurons) organized in layers, including an input layer, one or more hidden layers, and an output layer.
+Each neuron processes input data by applying a weighted sum, followed by an activation function, to produce an output.
+Neural networks are trained using algorithms like backpropagation, where the model adjusts its internal parameters (weights) based on the errors between predicted and actual outputs.
 +++
 Start to read {fas}`arrow-right`
 ```
@@ -47,7 +52,11 @@ Start to read {fas}`arrow-right`
 CNN Basics💾
 ^^^
 
-TODO: CNNs are ...
+Convolutional Neural Networks are a specialized type of neural network designed for processing structured grid-like data, such as images.
+They consist of multiple layers, including convolutional layers, pooling layers, and fully connected layers.
+CNNs use convolutional operations to extract features from input images, preserving the spatial relationships between pixels.
+Pooling layers reduce the dimensionality of feature maps, making the model more computationally efficient.
+CNNs have been highly successful in image classification, object detection, and other computer vision tasks.
 +++
 Start to read {fas}`arrow-right`
 ```
@@ -60,7 +69,11 @@ Start to read {fas}`arrow-right`
 RNN Basics 🚀
 ^^^
 
-TODO: RNNs are ...
+Recurrent Neural Networks are designed to work with sequential data, such as time series or natural language.
+They contain recurrent connections that allow information to persist over time, enabling the network to capture temporal dependencies.
+RNNs process input sequences one element at a time while maintaining an internal state (hidden state) that evolves as new inputs are processed.
+Long Short-Term Memory (LSTM) and Gated Recurrent Unit (GRU) are popular variants of RNNs that address the vanishing gradient problem and better capture long-term dependencies.
+RNNs are widely used in tasks such as machine translation, speech recognition, and sentiment analysis, where understanding context and sequential patterns is crucial.
 +++
 Start to read {fas}`arrow-right`
 ```
