@@ -1,7 +1,7 @@
-# Deep Learning Open Book 
-## Author: Jack_W 
+# a **Deep Learning Open Book** deployed by jack wang
 
 <center><img src="./assets/images/ml_vs_dl.png" width="70%" class="bg-white mb-1" ><br> Image: ML_vs_DL</center>
+
 <!-- `````{grid} 2
 :reverse:
 
