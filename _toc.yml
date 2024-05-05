@@ -27,15 +27,9 @@ parts:
       - file: deep-learning/gan.ipynb
       - file: deep-learning/difussion-model.ipynb
       - file: deep-learning/dqn.ipynb
-# Or you organize the TOC by parts
+  - caption: ASSIGNMENTS
+      chapters:
+      - file: assignments/google-stock-price-prediction-rnn.ipynb
+      - file: assignments/bitcoin-lstm-model-with-tweet-volume-and-sentiment.ipynb
+      - file: assignments/beginner-guide-to-text-preprocessing.ipynb
 
-# parts:
-#   - caption: Chapters
-#     numbered: true
-#     maxdepth: 2
-#     chapters:
-#       - file: book/markdown
-#       - file: book/notebooks
-#   - caption: Appendices
-#     chapters:
-#       - file: book/bibliography
