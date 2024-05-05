@@ -197,6 +197,14 @@
 <li class="toctree-l1"><a class="reference internal" href="difussion-model.html">Diffusion Model</a></li>
 <li class="toctree-l1"><a class="reference internal" href="dqn.html">Deep Q-learning</a></li>
 </ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">ASSIGNMENTS</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../assignments/google-stock-price-prediction-rnn.html">Google Stock Price Prediction RNN</a></li>
+
+<li class="toctree-l1"><a class="reference internal" href="../assignments/bitcoin-lstm-model-with-tweet-volume-and-sentiment.html">Bitcoin LSTM Model with Tweet Volume and Sentiment</a></li>
+
+<li class="toctree-l1"><a class="reference internal" href="../assignments/beginner-guide-to-text-preprocessing.html">Beginner’s Guide to Text Pre-Processing</a></li>
+</ul>
 
     </div>
 </nav></div>
@@ -465,15 +473,15 @@ document.write(`
 </ul>
 </li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#mask-r-cnn">Mask R-CNN</a><ul class="nav section-nav flex-column">
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id3">Code</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id1">Code</a></li>
 </ul>
 </li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#fcos">FCOS</a><ul class="nav section-nav flex-column">
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id4">Code</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id2">Code</a></li>
 </ul>
 </li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#detr">DETR</a><ul class="nav section-nav flex-column">
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id6">Code</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id3">Code</a></li>
 </ul>
 </li>
 </ul>
@@ -547,7 +555,7 @@ document.write(`
 <figure class="align-default" id="the-structure-of-faster-rcnn">
 <a class="reference internal image-reference" href="https://static-1300131294.cos.ap-shanghai.myqcloud.com/images/deep-learning/objdet/03_faster_rcnn.png"><img alt="https://static-1300131294.cos.ap-shanghai.myqcloud.com/images/deep-learning/objdet/03_faster_rcnn.png" src="https://static-1300131294.cos.ap-shanghai.myqcloud.com/images/deep-learning/objdet/03_faster_rcnn.png" style="width: 90%;" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 22 </span><span class="caption-text">The structure of Faster RCNN <span id="id1">[]</span></span><a class="headerlink" href="#the-structure-of-faster-rcnn" title="Link to this image">#</a></p>
+<p><span class="caption-number">Fig. 22 </span><span class="caption-text">The structure of Faster RCNN </span><a class="headerlink" href="#the-structure-of-faster-rcnn" title="Link to this image">#</a></p>
 </figcaption>
 </figure>
 <div class="admonition note">
@@ -600,15 +608,15 @@ document.write(`
 <figure class="align-default" id="the-structure-of-mask-rcnn">
 <a class="reference internal image-reference" href="https://static-1300131294.cos.ap-shanghai.myqcloud.com/images/deep-learning/objdet/04_mask_rcnn.png"><img alt="https://static-1300131294.cos.ap-shanghai.myqcloud.com/images/deep-learning/objdet/04_mask_rcnn.png" src="https://static-1300131294.cos.ap-shanghai.myqcloud.com/images/deep-learning/objdet/04_mask_rcnn.png" style="width: 90%;" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 23 </span><span class="caption-text">The structure of Mask RCNN <span id="id2">[]</span></span><a class="headerlink" href="#the-structure-of-mask-rcnn" title="Link to this image">#</a></p>
+<p><span class="caption-number">Fig. 23 </span><span class="caption-text">The structure of Mask RCNN </span><a class="headerlink" href="#the-structure-of-mask-rcnn" title="Link to this image">#</a></p>
 </figcaption>
 </figure>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>We can see the paper <a class="reference external" href="https://arxiv.org/pdf/1703.06870v3.pdf">here</a>.</p>
 </div>
-<section id="id3">
-<h4>Code<a class="headerlink" href="#id3" title="Link to this heading">#</a></h4>
+<section id="id1">
+<h4>Code<a class="headerlink" href="#id1" title="Link to this heading">#</a></h4>
 <p>The key parts in Mask RCNN are:</p>
 <ul class="simple">
 <li><p>RoIAlign</p></li>
@@ -796,13 +804,13 @@ The structure of FCOS {cite}`fcos_structure`
 <p class="admonition-title">Note</p>
 <p>We can see the paper <a class="reference external" href="https://arxiv.org/pdf/1904.01355v5.pdf">here</a>.</p>
 </div>
-<section id="id4">
-<h4>Code<a class="headerlink" href="#id4" title="Link to this heading">#</a></h4>
+<section id="id2">
+<h4>Code<a class="headerlink" href="#id2" title="Link to this heading">#</a></h4>
 <p>The key point in FCOS is Center-ness, which is a novel way to calculate target: <span class="math notranslate nohighlight">\(centerness = \sqrt{\frac{min(l,r)}{max(l,r)} \frac{min(t,b)}{max(t,b)}}\)</span></p>
 <figure class="align-default" id="illustration-of-centerness">
 <a class="reference internal image-reference" href="https://static-1300131294.cos.ap-shanghai.myqcloud.com/images/deep-learning/objdet/06_centerness.png"><img alt="https://static-1300131294.cos.ap-shanghai.myqcloud.com/images/deep-learning/objdet/06_centerness.png" src="https://static-1300131294.cos.ap-shanghai.myqcloud.com/images/deep-learning/objdet/06_centerness.png" style="width: 90%;" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 24 </span><span class="caption-text">Illustration of centerness <span id="id5">[]</span></span><a class="headerlink" href="#illustration-of-centerness" title="Link to this image">#</a></p>
+<p><span class="caption-number">Fig. 24 </span><span class="caption-text">Illustration of centerness </span><a class="headerlink" href="#illustration-of-centerness" title="Link to this image">#</a></p>
 </figcaption>
 </figure>
 <div class="cell docutils container">
@@ -870,8 +878,8 @@ Structure of DETR {cite}`detr_structure`
 <p class="admonition-title">Note</p>
 <p>We can see the paper <a class="reference external" href="https://arxiv.org/pdf/2005.12872v3.pdf">here</a>.</p>
 </div>
-<section id="id6">
-<h4>Code<a class="headerlink" href="#id6" title="Link to this heading">#</a></h4>
+<section id="id3">
+<h4>Code<a class="headerlink" href="#id3" title="Link to this heading">#</a></h4>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">tensorflow</span> <span class="k">as</span> <span class="nn">tf</span>
@@ -948,7 +956,7 @@ style="border:none;"></iframe>
 A demo of object detection. <a href="https://github.com/mtschirs/js-objectdetect">[source]</a>
 </p>
 <hr class="docutils" />
-<span class="target" id="id7"></span></section>
+</section>
 </section>
 
     <script type="text/x-thebe-config">
@@ -1023,15 +1031,15 @@ A demo of object detection. <a href="https://github.com/mtschirs/js-objectdetect
 </ul>
 </li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#mask-r-cnn">Mask R-CNN</a><ul class="nav section-nav flex-column">
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id3">Code</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id1">Code</a></li>
 </ul>
 </li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#fcos">FCOS</a><ul class="nav section-nav flex-column">
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id4">Code</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id2">Code</a></li>
 </ul>
 </li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#detr">DETR</a><ul class="nav section-nav flex-column">
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id6">Code</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id3">Code</a></li>
 </ul>
 </li>
 </ul>
