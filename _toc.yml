@@ -28,8 +28,7 @@ parts:
       - file: deep-learning/difussion-model.ipynb
       - file: deep-learning/dqn.ipynb
   - caption: ASSIGNMENTS
-      chapters:
+    chapters:
       - file: assignments/google-stock-price-prediction-rnn.ipynb
       - file: assignments/bitcoin-lstm-model-with-tweet-volume-and-sentiment.ipynb
       - file: assignments/beginner-guide-to-text-preprocessing.ipynb
-
